@@ -1,0 +1,100 @@
+{"frames": {
+
+"0":
+{
+	"frame": {"x":813,"y":1,"w":128,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":128,"h":174},
+	"sourceSize": {"w":132,"h":175}
+},
+"1":
+{
+	"frame": {"x":177,"y":1,"w":120,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":2,"w":120,"h":169},
+	"sourceSize": {"w":132,"h":175}
+},
+"2":
+{
+	"frame": {"x":421,"y":1,"w":132,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":132,"h":170},
+	"sourceSize": {"w":132,"h":175}
+},
+"3":
+{
+	"frame": {"x":943,"y":1,"w":129,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":129,"h":174},
+	"sourceSize": {"w":132,"h":175}
+},
+"4":
+{
+	"frame": {"x":50,"y":1,"w":125,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":125,"h":165},
+	"sourceSize": {"w":132,"h":175}
+},
+"5":
+{
+	"frame": {"x":555,"y":1,"w":126,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":126,"h":171},
+	"sourceSize": {"w":132,"h":175}
+},
+"6":
+{
+	"frame": {"x":1074,"y":1,"w":129,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":129,"h":174},
+	"sourceSize": {"w":132,"h":175}
+},
+"7":
+{
+	"frame": {"x":299,"y":1,"w":120,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":2,"w":120,"h":169},
+	"sourceSize": {"w":132,"h":175}
+},
+"8":
+{
+	"frame": {"x":683,"y":1,"w":128,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":128,"h":173},
+	"sourceSize": {"w":132,"h":175}
+},
+"9":
+{
+	"frame": {"x":1205,"y":1,"w":129,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":129,"h":174},
+	"sourceSize": {"w":132,"h":175}
+},
+"dot":
+{
+	"frame": {"x":1,"y":1,"w":47,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":112,"w":47,"h":63},
+	"sourceSize": {"w":47,"h":175}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "big_win_font.png",
+	"format": "RGBA8888",
+	"size": {"w":1335,"h":176},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5f577ee40894d748f2b2f4a75a8d7794:14f364e0d335b876cba3bd334bc46984:8b0fb27a0b916207a118da070029d58c$"
+}
+}

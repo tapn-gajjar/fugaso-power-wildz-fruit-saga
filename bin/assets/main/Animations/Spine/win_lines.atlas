@@ -1,0 +1,9 @@
+win_lines.png
+size:226,103
+filter:Linear,Linear
+fx_spark
+bounds:2,2,191,41
+offsets:12,8,214,57
+wild_fx_4
+bounds:2,45,222,56
+offsets:11,2,237,69

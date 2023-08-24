@@ -1,0 +1,7 @@
+wild land 1st reel [157,93,201,145,170]
+wild on 2nd reel [162,162,130,80,66]
+wild on 3rd reel [84,135,56,90,180]
+
+Wild on all 3 Reels [162,93,130,90,66]
+
+Normal Win: [193,181,165,201,32]

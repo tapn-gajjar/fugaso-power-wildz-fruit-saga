@@ -1,0 +1,103 @@
+name                			server    client  
+CHERRY                             A         1
+7                                  G         2
+BAR                                F         3
+GRAPE                              D         4
+WATERMELON                         E         5
+ORANGE                             B         6
+PLUM                               C         7
+LEMON                              @         8
+WILD                               H         
+
+0: {symbol: '@', extra: null, count: 3, factor: 10}
+1: {symbol: '@', extra: null, count: 4, factor: 20}
+2: {symbol: '@', extra: null, count: 5, factor: 100}
+3: {symbol: 'A', extra: null, count: 3, factor: 10}
+4: {symbol: 'A', extra: null, count: 4, factor: 20}
+5: {symbol: 'A', extra: null, count: 5, factor: 100}
+6: {symbol: 'B', extra: null, count: 3, factor: 10}
+7: {symbol: 'B', extra: null, count: 4, factor: 30}
+8: {symbol: 'B', extra: null, count: 5, factor: 150}
+9: {symbol: 'C', extra: null, count: 3, factor: 10}
+10: {symbol: 'C', extra: null, count: 4, factor: 30}
+11: {symbol: 'C', extra: null, count: 5, factor: 150}
+12: {symbol: 'D', extra: null, count: 3, factor: 20}
+13: {symbol: 'D', extra: null, count: 4, factor: 50}
+14: {symbol: 'D', extra: null, count: 5, factor: 200}
+15: {symbol: 'E', extra: null, count: 3, factor: 20}
+16: {symbol: 'E', extra: null, count: 4, factor: 50}
+17: {symbol: 'E', extra: null, count: 5, factor: 200}
+18: {symbol: 'F', extra: null, count: 3, factor: 50}
+19: {symbol: 'F', extra: null, count: 4, factor: 200}
+20: {symbol: 'F', extra: null, count: 5, factor: 500}
+21: {symbol: 'G', extra: null, count: 3, factor: 100}
+22: {symbol: 'G', extra: null, count: 4, factor: 500}
+23: {symbol: 'G', extra: null, count: 5, factor: 1000}
+
+0: [1, 1, 1, 1, 1]
+1: [0, 0, 0, 0, 0]
+2: [2, 2, 2, 2, 2]
+3: [0, 1, 2, 1, 0]
+4: [2, 1, 0, 1, 2]
+5: [0, 0, 1, 2, 2]
+6: [2, 2, 1, 0, 0]
+7: [1, 2, 2, 2, 1]
+8: [1, 0, 0, 0, 1]
+9: [0, 1, 1, 1, 0]
+
+
+0
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'HHH', 
+'HHH', 
+'HHH', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+1
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'HHH', 
+'@@@FFFGGGCCCDDDBBB@@@EEEAAADDDFFFCCC@@@@GGGBBBEEEA…GGGBBBDDDAAA@@@CCCEEEFFFBBB@@@AAAADDDFFFGGGEEEBBB', 
+'@@@AAABBBDDDAAACCCDDDAAABBBEEEAAA@@@BBBDDDAAABBBDD…AAABBBCCCEEEAAABBB@@@DDDBBBAAAFFFBBBAAAGGG@@CCBBB', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+2
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'@@@EEECCCAAA@@@CCCEEEBBBDDD@@@EEECCCAAA@@@CCCEEEFF…@@DDBBBCCC@@@EEECCC@@@BBAACCC@@@GGGEE@@@CCC@@@DDD', 
+'@@@FFFGGGCCCDDDBBB@@@EEEAAADDDFFFCCC@@@@GGGBBBEEEA…GGGBBBDDDAAA@@@CCCEEEFFFBBB@@@AAAADDDFFFGGGEEEBBB', 
+'@@@AAABBBDDDAAACCCDDDAAABBBEEEAAA@@@BBBDDDHAAABBBD…CCCEEEAAABBB@@@DDDBBBAAAFFFBBBAAAGGG@@CCBBBAAABBB', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+3
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'@@@EEECCCAAA@@@CCCEEEBBBDDD@@@EEECCCAAA@@@CCCEEEFF…@@DDBBBCCC@@@EEECCC@@@BBAACCC@@@GGGEE@@@CCC@@@DDD', 
+'HHH', 
+'@@@AAABBBDDDAAACCCDDDAAABBBEEEAAA@@@BBBDDDAAABBBDD…AAABBBCCCEEEAAABBB@@@DDDBBBAAAFFFBBBAAAGGG@@CCBBB', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+4
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'@@@EEECCCAAA@@@CCCEEEBBBDDD@@@EEECCCAAA@@@CCCEEEFF…@@DDBBBCCC@@@EEECCC@@@BBAACCC@@@GGGEE@@@CCC@@@DDD', 
+'@@@FFFGGGCCCDDDBBB@@@EEEAAADDDFFFCCC@@@@GGGBBBEEEA…GGGBBBDDDAAA@@@CCCEEEFFFBBB@@@AAAADDDFFFGGGEEEBBB', 
+'HHH', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+5
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'HHH', 
+'HHH', 
+'@@@AAABBBDDDAAACCCDDDAAABBBEEEAAA@@@BBBDDDAAABBBDD…AAABBBCCCEEEAAABBB@@@DDDBBBAAAFFFBBBAAAGGG@@CCBBB', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+6
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'HHH', 
+'@@@FFFGGGCCCDDDBBB@@@EEEAAADDDFFFCCC@@@@GGGBBBEEEA…GGGBBBDDDAAA@@@CCCEEEFFFBBB@@@AAAADDDFFFGGGEEEBBB', 
+'HHH', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']
+
+7
+['AAABBBDDDFFAAABBBCCC@@@DDDBBBAAADDDBBBEEE@@BBBDDDA…ADDDEEEBBBAAA@@@AAAFFFDDDBBBAAACCCDDDBBBAAA@@@GGG', 
+'@@@EEECCCAAA@@@CCCEEEBBBDDD@@@EEECCCAAA@@@CCCEEEFF…@@DDBBBCCC@@@EEECCC@@@BBAACCC@@@GGGEE@@@CCC@@@DDD', 
+'HHH', 
+'HHH', 
+'@@@CCCEEE@@@CCCBBBAAACCC@@@EEECCCFFF@@@GGGCCCEEE@@…BBBDDCCC@@@EEE@@@AAACCC@@@EEEFFCCCBBBAA@@@EEE@@BB']

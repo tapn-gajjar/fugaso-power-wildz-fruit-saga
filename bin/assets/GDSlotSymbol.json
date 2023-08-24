@@ -1,0 +1,68 @@
+{
+  "debug":0,
+  "debug_rect":0,
+  "-symbol_sprite_textures":{
+    "A":"symb_1",
+    "G":"symb_2",
+    "F":"symb_3",
+    "D":"symb_4",
+    "E":"symb_5",
+    "B":"symb_6",
+    "C":"symb_7",
+    "@":"symb_8"
+  },
+
+  "symbols":{
+    "A":"symbols/n1_symbols_static",
+    "G":"symbols/n1_symbols_static",
+    "F":"symbols/n1_symbols_static",
+    "D":"symbols/n1_symbols_static",
+    "E":"symbols/n1_symbols_static",
+    "B":"symbols/n1_symbols_static",
+    "C":"symbols/n1_symbols_static",
+    "@":"symbols/n1_symbols_static",
+    "H":"symbols/n2_symbol_wild_static"
+  },
+  "blur":{
+    "A":"symb_blur_1",
+    "G":"symb_blur_2",
+    "F":"symb_blur_3",
+    "D":"symb_blur_4",
+    "E":"symb_blur_5",
+    "B":"symb_blur_6",
+    "C":"symb_blur_7",
+    "@":"symb_blur_8"
+  },
+  "drop": {
+    "H":"symbols/n2_symbol_wild_static"
+  },
+  "idle": {
+    "H":"symbols/n2_symbol_wild_idle"
+  },
+  "skins":{
+    "A":"n1_symbol1",
+    "G":"n1_symbol2",   
+    "F":"n1_symbol3",
+    "D":"n1_symbol4",
+    "E":"n1_symbol5",
+    "B":"n1_symbol6",
+    "C":"n1_symbol7",
+    "@":"n1_symbol8",    
+    "H":"n2_symbol_wild"
+  },
+  "spine_symbol":{
+    "x":0, "y":0, "dx":0, "dy":0, "speed":1,
+    "deepPosition":false, "noCheckSize":true,
+    "play":false, "playLoop":false, "destroyOnKill":true,
+    "textures":"symbols", "custom_a_name":"symbols/n1_symbols_static", "name":"a_",
+    "type":"actorSpine", "debug":0
+  },
+  "wild":{
+    "x":0, "y":0, "speed":1,"dx":0, "dy":0, "scale":1, "skin":"n2_symbol_wild",
+    "play":false, "playLoop":false, "win":"symbols/n2_symbol_wild_idle",
+    "textures":"symbols", "custom_a_name":"symbols/n2_symbol_wild_land", "name":"a_wild",
+    "type":"actorSpine", "debug":0
+  },
+  "-star_collect":"bonus/star_collect",
+  "-yellow_star_add":"bonus/star_super_add"
+}
